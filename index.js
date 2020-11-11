@@ -11,7 +11,6 @@ const bigScoreEl = document.querySelector('#bigScoreEl')
 
 //******************************************************************* CLASS ******************************
 
-
 class Player {
     constructor(x, y, radius, colour) {
         this.x = x
@@ -90,7 +89,6 @@ class Particle {
         c.fill()
         c.restore()
     }
-
     update() {
         this.draw()
         this.velocity.x *= friction
@@ -100,7 +98,6 @@ class Particle {
         this.alpha -= 0.01
     }
 }
-
 
 
 //********************************************************** CONST ************************************
